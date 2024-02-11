@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>I am an ape</title>
+  <style>
+    .wrapper{
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .egg1,.egg2,.stick{
+      background-color: antiquewhite;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .stick{
+      transition: 1s;
+      border-radius: 50% 50% 0% 0%;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+<H1>Я хакер</H1>
+<div class="">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem consequatur distinctio dolorem ea eaque in ipsum modi nulla obcaecati perferendis perspiciatis sint, sunt suscipit tempora vel, velit voluptas, voluptatum?
+</div>
+<div>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, suscipit.
+
+</div>
+<div>
+  Lorem ipsum dolor.
+</div>
+
+<div class="wrapper">
+
+  <div class="egg1"></div>
+  <div class="stick"></div>
+  <div class="egg2"></div>
+</div>
+<div>
+  <div onclick="cold()" class="cold">
+    холодно
+  </div>
+  <div onclick="hot()" class="hot">
+    жарко
+  </div>
+</div>
+ <footer>
+<!--   піца-->
+   бібізяна піца
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/7N83wfN-BEc?si=htGbAUsuwuUPJnrz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </footer>
+<!--<img src="img/ape.jpg">-->
+<script src="js/js.js"></script>
+<script>
+  console.log("бібізяни");
+  function hot() {
+    document.querySelector(".stick").style.height = "800px";
+    console.log("бібізяни");
+
+  }
+  function cold() {
+    document.querySelector(".stick").style.height = "100px";
+    console.log("бібізяни");
+
+  }
+</script>
+</body>
+</html>
